@@ -1,8 +1,16 @@
-#include <iostream>
+#include<iostream>
+using namespace std;
 
-int main() {
-    // Write C++ code here
-    std::cout << "Try programiz.pro";
+int main(){
+cout<<"Hello";
+int n;
+cin>>n;
+int arr[100];
+int sum=0;
+for (int i=0; i<n; i++){
+    cin>>arr[i];
+    sum+=arr[i];
+}
 
-    return 0;
+cout<<sum/n;
 }
